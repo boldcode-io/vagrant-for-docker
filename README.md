@@ -1,14 +1,14 @@
 # Vagrant for docker
 
-A boilerplate project to run docker within Virtualbox, with the help of vagrant.
+A ready-for-work environment to run docker + various programming languages with the help of vagrant (and Virtualbox).
 
-It aims to help Windows users which have difficulties running Docker.
+It aims to help Windows users which have difficulties running Docker or Unix tools.
 
 ## Prerequisites
 
-* Install Virtualbox
-* Install Vagrant
-
+* Optional : Install chocolatey
+* Install Virtualbox (with `choco install virtualbox`)
+* Install Vagrant (with `choco install vagrant`)
 
 ## Usage
 
