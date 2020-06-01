@@ -11,6 +11,7 @@ install_base() {
     	apt-transport-https \
     	ca-certificates \
     	curl \
+    	git \
     	wget \
     	vim \
     	gnupg2 \
