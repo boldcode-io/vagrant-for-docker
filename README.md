@@ -22,14 +22,14 @@ Once the system is installed, log in onto it by running :
 
 Create your ssh keys 
 
-   $ ssh-keygen -f ~/.ssh/myfavorite/project
+    $ ssh-keygen -f ~/.ssh/myfavorite/project
    
 Copy your SSH public key to your source management tool (Github, Bitbucket, Gitlab, whatever...)
 
 Git clone your favorite project in the virtual machine
 
-   $ mkdir -p ~/src
-   $ git clone git@somewhere.foo.bar:favorite-project ~/src/favorite-project
+    $ mkdir -p ~/src
+    $ git clone git@somewhere.foo.bar:favorite-project ~/src/favorite-project
 
 
 If you need to work with Visual Studio editor and run commands within the linux box
