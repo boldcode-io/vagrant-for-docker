@@ -39,5 +39,4 @@ you can also follow this guide : [Connect Visual Studio Code with Vagrant in you
 
 ## References
 
-:construction:
-
+* [Automating developer machine setup with Chocolatey](https://octopus.com/blog/automate-developer-machine-setup-with-chocolatey)
