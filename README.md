@@ -6,7 +6,7 @@ It aims to help Windows users which have difficulties running Docker or Unix too
 
 ## Prerequisites
 
-* Optional : Install chocolatey
+* Optional : Install [Chocolatey](https://chocolatey.org/install)
 * Install Virtualbox (with `choco install virtualbox`)
 * Install Vagrant (with `choco install vagrant`)
 
