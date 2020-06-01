@@ -31,6 +31,7 @@ Git clone your favorite project in the virtual machine
     $ mkdir -p ~/src
     $ git clone git@somewhere.foo.bar:favorite-project ~/src/favorite-project
 
+And from now on, follow project README or development guidelines :wink:
 
 If you need to work with Visual Studio editor and run commands within the linux box
 you can also follow this guide : [Connect Visual Studio Code with Vagrant in your local machine](https://medium.com/@lopezgand/connect-visual-studio-code-with-vagrant-in-your-local-machine-24903fb4a9de)
