@@ -14,11 +14,11 @@ It aims to help Windows users which have difficulties running Docker or Unix too
 
 Open Git bash (or Powershell) in the project directory, then run
 
-    vagrant up
+    $ vagrant up
 
 Once the system is installed, log in onto it by running :
 
-    vagrant ssh
+    $ vagrant ssh
 
 Create your ssh keys 
 
