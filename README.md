@@ -20,14 +20,20 @@ Once the system is installed, log in onto it by running :
 
     vagrant ssh
 
+Create your ssh keys 
 
-That's all. You are now connected on a linux server.
+   $ ssh-keygen -f ~/.ssh/myfavorite/project
+   
+Copy your SSH public key to your source management tool (Github, Bitbucket, Gitlab, whatever...)
 
+Git clone your favorite project in the virtual machine
 
-## More fun stuff
+   $ mkdir -p ~/src
+   $ git clone git@somewhere.foo.bar:favorite-project ~/src/favorite-project
+
 
 If you need to work with Visual Studio editor and run commands within the linux box
-you can follow this guide : [Connect Visual Studio Code with Vagrant in your local machine](https://medium.com/@lopezgand/connect-visual-studio-code-with-vagrant-in-your-local-machine-24903fb4a9de)
+you can also follow this guide : [Connect Visual Studio Code with Vagrant in your local machine](https://medium.com/@lopezgand/connect-visual-studio-code-with-vagrant-in-your-local-machine-24903fb4a9de)
 
 
 ## References
